@@ -1,5 +1,4 @@
-#replaced by the predict method for gpls
-glpls1a.predict <- function(X, beta, family="binomial", link="logit")
+glpls1a.predict <- function(X,beta,family="binomial",link="logit")
 {
   if(all(X[,1] == rep(1,nrow(X))))
    {

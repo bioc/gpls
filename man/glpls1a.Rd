@@ -6,8 +6,7 @@
   Firth's bias reduction procedure (IRWPLSF) for two-group classification
 }
 \usage{
-glpls1a(X, y, K.prov = NULL, eps = 0.001, lmax = 100, b.ini = NULL, 
-      denom.eps = 1e-20, family = "binomial", link = NULL, br = TRUE)
+glpls1a(X, y, K.prov = NULL, eps = 0.001, lmax = 100, b.ini = NULL, denom.eps = 1e-20, family = "binomial", link = NULL, br = T)
 }
 
 \arguments{
